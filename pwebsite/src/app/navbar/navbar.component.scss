@@ -1,0 +1,14 @@
+@import '../../styles.scss';
+
+.custom-nav li:not(.static-item) {
+  display: flex;
+  justify-content: space-around;
+}
+.component-class {
+  background-color: $primary-color;
+  color: $primary-color;
+}
+/* styles.scss */
+.primary-background {
+  background-color: $primary-color;
+}
